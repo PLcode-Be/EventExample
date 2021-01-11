@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 		if(isset(explode("바보", $event->getMessage())[1]) ){
 			$event->getPlayer()->getInventory()->addItem(Item::get(Item::SNOW_BLOCK));
 			$event->setCancelled();
-// 			$event->getPlayer()->kick("비속어 채팅");
+ 			$event->getPlayer()->kick("비속어 채팅");
 		}
 	}
 }
