@@ -1,0 +1,6 @@
+name: FirstStep
+main: FirstStep\Main
+authoor: hm
+version: 1
+api:
+- 3.0.0
